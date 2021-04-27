@@ -1,4 +1,5 @@
 # ***HOLBERTON SCHOOL PROJECT :***
 
 
-**Python - if/else, loops, functions**![enter image description here](https://img-0.journaldunet.com/w7wTlL7Jz2N6yX4edTHoXxibY-E=/1280x/smart/ead0a7a3729547aba8dc36a9e81859d8/ccmcms-jdn/11515476.jpg)
+**Python - if/else, loops, functions**
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9AyJHGqPiCrsRYqVKfqk59TZ4YGKh8UNU8Q&usqp=CAU)
