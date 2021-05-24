@@ -94,9 +94,10 @@ class Rectangle:
             """
         if self.__width == 0 or self.__height == 0:
             return ("")
+        my_str =""
         for i in range(self.__height):
             for j in range(self.__width):
-                my_str += str(self.print_symbol)
+                my_str += "#"
             if i < self.__height - 1:
                 my_str += "\n"
         return my_str
