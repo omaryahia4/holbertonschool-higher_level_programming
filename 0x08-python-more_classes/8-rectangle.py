@@ -116,7 +116,7 @@ class Rectangle:
         Prints message when an instance of Rectangle is deleted
         """
         Rectangle.number_of_instances -= 1
-        print ("Bye rectangle...")
+        print("Bye rectangle...")
 
     def bigger_or_equal(rect_1, rect_2):
         """
