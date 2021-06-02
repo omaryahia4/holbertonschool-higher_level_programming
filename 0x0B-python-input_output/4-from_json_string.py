@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import json
 """import JSON (JavaScript Object Notation)"""
+import json
 
 
 def from_json_string(my_str):
