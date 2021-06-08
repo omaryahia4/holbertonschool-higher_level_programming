@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """ Module Base """
-
-
 from models.base import Base
 
 
