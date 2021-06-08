@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
 Module Base
 """
 from models.base import Base
@@ -78,8 +78,8 @@ class Rectangle(Base):
 
     def __str__(self):
         """ __str__ method """
-        return str("[Rectangle] ({}) {}/{} - {}/{}"\
-            .format(self.id, self.__x, self.__y, self.__width, self.__height))
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(
+            self.id, self.x, self.y, self.width, self.height)
 
     def display(self):
         for y in range(0, self.__y):
