@@ -1,4 +1,4 @@
-Python - Almost a circle : 
+Python - Almost a circle :
 The AirBnB project is a big part of the Higher level curriculum. This project will help to be ready for it.
 In this project, we will review everything about Python:
 
