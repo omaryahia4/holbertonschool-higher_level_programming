@@ -75,10 +75,11 @@ class Rectangle(Base):
     def area(self):
         """ Method that return the area of a rectangle """
         return self.__width * self.__height
-       
+
     def __str__(self):
         """ __str__ method """
-        return str("[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.__x, self.__y, self.__width, self.__height))
+        return str("[Rectangle] ({}) {}/{} - {}/{}"\
+            .format(self.id, self.__x, self.__y, self.__width, self.__height))
 
     def display(self):
         for y in range(0, self.__y):
@@ -92,7 +93,7 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         """ public method that assigns an argument to each attribute"""
-        
+
         if args:
             for arg, val in enumerate(args):
                 if arg == 0:
@@ -108,7 +109,7 @@ class Rectangle(Base):
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
-    
+
     def to_dictionary(self):
         """ Dictionary Representation of Rectangle class """
         dict = {}

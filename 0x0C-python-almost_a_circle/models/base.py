@@ -16,6 +16,7 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
+
     @staticmethod
     def to_json_string(list_dictionaries):
         """ static method that returns the JSON string
@@ -25,6 +26,7 @@ class Base:
             return "[]"
         else:
             return json.dumps(list_dictionaries)
+
     @classmethod
     def save_to_file(cls, list_objs):
         """writes the JSON string representation of list_objs to a file"""
@@ -47,7 +49,7 @@ class Base:
 
     @classmethod
     def create(cls, **dictionary):
-        """ class method that returns 
+        """ class method that returns
         an instance with all attributes already set"""
         if cls.__name__ == "Rectangle":
             dummy = cls(1, 1)
