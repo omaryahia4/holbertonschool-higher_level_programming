@@ -1,4 +1,4 @@
-!/usr/bin/node
+#!/usr/bin/node
 let count = 0;
 process.argv.forEach((val, index) => {
   count++;
