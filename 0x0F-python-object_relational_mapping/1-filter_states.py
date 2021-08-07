@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 ''' lists all states from the database hbtn_0e_0_usa '''
-if __name__ == "__main__":
+
+
+def list_all_states():
     import MySQLdb
     import sys
 
@@ -13,3 +15,7 @@ if __name__ == "__main__":
         print(row)
     cur.close()
     conn.close()
+
+
+if __name__ == "__main__":
+    list_all_states()
