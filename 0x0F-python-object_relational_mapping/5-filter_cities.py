@@ -12,7 +12,8 @@ def list_all_cities():
             ON states.id = cities.state_id WHERE states.name=%s
             ORDER BY cities.id""", (sys.argv[4],))
     query_rows = cur.fetchall()
-
+    if query_rows is None:
+        print("")
     for i in range(len(query_rows)):
         if len(query_rows)-1 == i:
             print("{}".format(query_rows[i][0]))
