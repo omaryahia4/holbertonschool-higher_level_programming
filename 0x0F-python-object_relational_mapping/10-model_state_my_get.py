@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" lists all State objects from the database hbtn_0e_6_usa"""
+""" lists the state id of entered argument from the database hbtn_0e_6_usa"""
 
 
 from sqlalchemy import create_engine
