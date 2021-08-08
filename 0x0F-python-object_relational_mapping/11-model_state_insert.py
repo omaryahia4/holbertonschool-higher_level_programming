@@ -2,11 +2,8 @@
 """ add new state "Louisiana" to the database hbtn_0e_6_usa"""
 
 
-from typing import NewType
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm.session import Session
-import model_state
 from model_state import Base, State
 import sys
 
