@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Python script that sends a POST request and displays the body of the response"""
+"""Python script that sends a POST request and
+displays the body of the response"""
 
 import requests
 from sys import argv
